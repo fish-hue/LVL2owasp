@@ -3,7 +3,7 @@ import re
 import math
 
 # Prompt the user to enter the website URL
-url = input("Enter website URL: ")
+url = input("Enter full website URL including http:// ")
 
 # Crawl the website and extract hashes, passwords, crypto algorithms, and check for encryption enforcement
 def crawl_website(url):
